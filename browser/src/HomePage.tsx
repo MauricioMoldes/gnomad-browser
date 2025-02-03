@@ -37,7 +37,7 @@ export default () => (
     <DocumentTitle />
     <HeadingContainer>
       <GnomadLogo width="60%" />
-      <Heading>Genome Aggregation Database</Heading>
+      <Heading> Dengen Genome Aggregation Database</Heading>
     </HeadingContainer>
 
     <Searchbox width="100%" />
