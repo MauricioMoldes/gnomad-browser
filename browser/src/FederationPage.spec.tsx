@@ -4,14 +4,14 @@ import 'jest-styled-components'
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-import DownloadsPage from './DownloadsPage'
+import FederationPage from './FederationPage'
 
 import { BrowserRouter } from 'react-router-dom'
 
-test('Downloads Page has no unexpected changes', () => {
+test('Federation Page has no unexpected changes', () => {
   const tree = renderer.create(
     <BrowserRouter>
-      <DownloadsPage />
+      <FederationPage />
     </BrowserRouter>
   )
   expect(tree).toMatchSnapshot()

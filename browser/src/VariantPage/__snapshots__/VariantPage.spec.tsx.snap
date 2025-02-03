@@ -804,7 +804,7 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
               className="TableWrapper-sc-1ep26r3-0 edvjZa"
             >
               <table
-                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
               >
                 <thead>
                   <tr>
@@ -899,7 +899,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="strong-border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -940,7 +942,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -981,7 +985,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1022,7 +1028,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1063,7 +1071,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1104,7 +1114,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1145,7 +1157,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1186,7 +1200,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1227,7 +1243,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1268,7 +1286,9 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -1310,7 +1330,7 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
                 </tbody>
                 <tfoot>
                   <tr
-                    className="border"
+                    className="strong-border"
                   >
                     <th
                       colSpan={2}
@@ -1428,7 +1448,7 @@ exports[`VariantPage with the dataset "gnomad_r3" has no unexpected changes 1`] 
             }
           >
             <p>
-              Local ancestry is not available for this variant. Local ancestry is only available for bi-allelic variants with high call rates and with an allele frequency &gt; 0.1% within the Latino/Admixed American gnomAD population.
+              Local ancestry is not available for this variant. Local ancestry is only available for bi-allelic variants with high call rates and with an allele frequency &gt; 0.1% within the Latino/Admixed American or African/African-American gnomAD ancestry groups.
             </p>
           </div>
         </div>
@@ -10724,7 +10744,7 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
               className="TableWrapper-sc-1ep26r3-0 edvjZa"
             >
               <table
-                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
               >
                 <thead>
                   <tr>
@@ -10819,7 +10839,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="strong-border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -10860,7 +10882,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -10901,7 +10925,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -10942,7 +10968,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -10983,7 +11011,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -11024,7 +11054,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -11065,7 +11097,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -11106,7 +11140,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -11147,7 +11183,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -11188,7 +11226,9 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -11230,7 +11270,7 @@ exports[`VariantPage with the dataset "gnomad_r3_controls_and_biobanks" has no u
                 </tbody>
                 <tfoot>
                   <tr
-                    className="border"
+                    className="strong-border"
                   >
                     <th
                       colSpan={2}
@@ -20647,7 +20687,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
               className="TableWrapper-sc-1ep26r3-0 edvjZa"
             >
               <table
-                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
               >
                 <thead>
                   <tr>
@@ -20742,7 +20782,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="strong-border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -20783,7 +20825,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -20824,7 +20868,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -20865,7 +20911,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -20906,7 +20954,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -20947,7 +20997,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -20988,7 +21040,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -21029,7 +21083,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -21070,7 +21126,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -21111,7 +21169,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -21153,7 +21213,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_cancer" has no unexpected c
                 </tbody>
                 <tfoot>
                   <tr
-                    className="border"
+                    className="strong-border"
                   >
                     <th
                       colSpan={2}
@@ -30570,7 +30630,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
               className="TableWrapper-sc-1ep26r3-0 edvjZa"
             >
               <table
-                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
               >
                 <thead>
                   <tr>
@@ -30665,7 +30725,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="strong-border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30706,7 +30768,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30747,7 +30811,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30788,7 +30854,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30829,7 +30897,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30870,7 +30940,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30911,7 +30983,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30952,7 +31026,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -30993,7 +31069,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -31034,7 +31112,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -31076,7 +31156,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_neuro" has no unexpected ch
                 </tbody>
                 <tfoot>
                   <tr
-                    className="border"
+                    className="strong-border"
                   >
                     <th
                       colSpan={2}
@@ -40493,7 +40573,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
               className="TableWrapper-sc-1ep26r3-0 edvjZa"
             >
               <table
-                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
               >
                 <thead>
                   <tr>
@@ -40588,7 +40668,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="strong-border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40629,7 +40711,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40670,7 +40754,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40711,7 +40797,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40752,7 +40840,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40793,7 +40883,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40834,7 +40926,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40875,7 +40969,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40916,7 +41012,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40957,7 +41055,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -40999,7 +41099,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_topmed" has no unexpected c
                 </tbody>
                 <tfoot>
                   <tr
-                    className="border"
+                    className="strong-border"
                   >
                     <th
                       colSpan={2}
@@ -50416,7 +50516,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
               className="TableWrapper-sc-1ep26r3-0 edvjZa"
             >
               <table
-                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+                className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
               >
                 <thead>
                   <tr>
@@ -50511,7 +50611,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="strong-border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50552,7 +50654,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50593,7 +50697,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50634,7 +50740,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50675,7 +50783,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50716,7 +50826,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50757,7 +50869,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50798,7 +50912,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50839,7 +50955,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50880,7 +50998,9 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                   </tr>
                 </tbody>
                 <tbody>
-                  <tr>
+                  <tr
+                    className="border"
+                  >
                     <th
                       colSpan={2}
                       rowSpan={1}
@@ -50922,7 +51042,7 @@ exports[`VariantPage with the dataset "gnomad_r3_non_v2" has no unexpected chang
                 </tbody>
                 <tfoot>
                   <tr
-                    className="border"
+                    className="strong-border"
                   >
                     <th
                       colSpan={2}
@@ -60167,7 +60287,7 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
         className="TableWrapper-sc-1ep26r3-0 edvjZa"
       >
         <table
-          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
         >
           <thead>
             <tr>
@@ -60262,7 +60382,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr
+              className="strong-border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60303,7 +60425,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60344,7 +60468,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60385,7 +60511,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60426,7 +60554,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60467,7 +60597,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60508,7 +60640,9 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -60550,7 +60684,7 @@ exports[`VariantPage with the dataset exac has no unexpected changes 1`] = `
           </tbody>
           <tfoot>
             <tr
-              className="border"
+              className="strong-border"
             >
               <th
                 colSpan={2}
@@ -68124,7 +68258,7 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
         className="TableWrapper-sc-1ep26r3-0 edvjZa"
       >
         <table
-          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
         >
           <thead>
             <tr>
@@ -68219,7 +68353,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr
+              className="strong-border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68260,7 +68396,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68301,7 +68439,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68342,7 +68482,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68383,7 +68525,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68424,7 +68568,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68465,7 +68611,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68506,7 +68654,9 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -68548,7 +68698,7 @@ exports[`VariantPage with the dataset gnomad_r2_1 has no unexpected changes 1`] 
           </tbody>
           <tfoot>
             <tr
-              className="border"
+              className="strong-border"
             >
               <th
                 colSpan={2}
@@ -78172,7 +78322,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
         className="TableWrapper-sc-1ep26r3-0 edvjZa"
       >
         <table
-          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
         >
           <thead>
             <tr>
@@ -78267,7 +78417,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr
+              className="strong-border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78308,7 +78460,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78349,7 +78503,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78390,7 +78546,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78431,7 +78589,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78472,7 +78632,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78513,7 +78675,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78554,7 +78718,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -78596,7 +78762,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_controls has no unexpected cha
           </tbody>
           <tfoot>
             <tr
-              className="border"
+              className="strong-border"
             >
               <th
                 colSpan={2}
@@ -88220,7 +88386,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
         className="TableWrapper-sc-1ep26r3-0 edvjZa"
       >
         <table
-          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
         >
           <thead>
             <tr>
@@ -88315,7 +88481,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr
+              className="strong-border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88356,7 +88524,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88397,7 +88567,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88438,7 +88610,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88479,7 +88653,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88520,7 +88696,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88561,7 +88739,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88602,7 +88782,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -88644,7 +88826,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_cancer has no unexpected c
           </tbody>
           <tfoot>
             <tr
-              className="border"
+              className="strong-border"
             >
               <th
                 colSpan={2}
@@ -98268,7 +98450,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
         className="TableWrapper-sc-1ep26r3-0 edvjZa"
       >
         <table
-          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
         >
           <thead>
             <tr>
@@ -98363,7 +98545,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr
+              className="strong-border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98404,7 +98588,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98445,7 +98631,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98486,7 +98674,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98527,7 +98717,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98568,7 +98760,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98609,7 +98803,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98650,7 +98846,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -98692,7 +98890,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_neuro has no unexpected ch
           </tbody>
           <tfoot>
             <tr
-              className="border"
+              className="strong-border"
             >
               <th
                 colSpan={2}
@@ -108316,7 +108514,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
         className="TableWrapper-sc-1ep26r3-0 edvjZa"
       >
         <table
-          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 ggAkBv"
+          className="Table__BaseTable-sc-7fgtt2-0 PopulationsTable__Table-sc-sijbl0-0 hRGkzk"
         >
           <thead>
             <tr>
@@ -108411,7 +108609,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr
+              className="strong-border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108452,7 +108652,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108493,7 +108695,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108534,7 +108738,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108575,7 +108781,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108616,7 +108824,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108657,7 +108867,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108698,7 +108910,9 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
             </tr>
           </tbody>
           <tbody>
-            <tr>
+            <tr
+              className="border"
+            >
               <th
                 colSpan={2}
                 rowSpan={1}
@@ -108740,7 +108954,7 @@ exports[`VariantPage with the dataset gnomad_r2_1_non_topmed has no unexpected c
           </tbody>
           <tfoot>
             <tr
-              className="border"
+              className="strong-border"
             >
               <th
                 colSpan={2}

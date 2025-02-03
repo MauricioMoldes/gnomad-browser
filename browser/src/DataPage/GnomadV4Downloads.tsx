@@ -270,7 +270,7 @@ const GnomadV4Downloads = () => {
 
         <p>
           For more information about these files, see our{' '}
-          <Link to="https://gnomad.broadinstitute.org/new/2024-08-release-gnomad-browser-tables">
+          <Link to="https://gnomad.broadinstitute.org/news/2024-08-release-gnomad-browser-tables">
             changelog entry
           </Link>{' '}
           on the browser tables, and the <Link to="/help/v4-browser-hts">help text</Link>.
@@ -293,7 +293,7 @@ const GnomadV4Downloads = () => {
           <ListItem>
             <GetUrlButtons
               label="Browser GRCh38 gene models Hail Table"
-              path="/resources/grch38/browser/gnomad.genes.GRCh38.GENCODEv39.ht"
+              path="/resources/grch38/browser/gnomad.genes.GRCh38.GENCODEv39.pext.ht"
             />
           </ListItem>
         </FileList>
@@ -354,6 +354,20 @@ const GnomadV4Downloads = () => {
             <DownloadLinks
               label="Random forest (RF) .onnx model"
               path="/release/4.0/pca/gnomad.v4.0.RF_fit.onnx"
+            />
+          </ListItem>
+        </FileList>
+      </DownloadsSection>
+
+      <DownloadsSection>
+        <SectionTitle id="v4-local-ancestry">Local ancestry</SectionTitle>
+        <FileList>
+          {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
+          <ListItem>
+            <DownloadLinks
+              label="Sites VCF"
+              path="/release/4.1/local_ancestry/genomes/gnomad.genomes.v4.1.local_ancestry.afr.vcf.bgz"
+              includeAzure={false}
             />
           </ListItem>
         </FileList>
@@ -468,6 +482,52 @@ const GnomadV4Downloads = () => {
               path="/release/4.1/exome_cnv/gnomad.v4.1.cnv.non_neuro_controls.vcf.gz"
               size="5.32 MiB"
               md5="10e6b0d9585d79d9620c40c96c257e4c"
+            />
+          </ListItem>
+        </FileList>
+      </DownloadsSection>
+
+      <DownloadsSection>
+        <SectionTitle id="v4-pext">Proportion expressed across transcripts (pext)</SectionTitle>
+        <p>
+          For information on pext, see{' '}
+          {/* @ts-expect-error TS(2769) FIXME: No overload matches this call. */}
+          <ExternalLink href="https://doi.org/10.1038/s41586-020-2329-2">
+            <em>Transcript expression-aware annotation improves rare variant interpretation.</em>{' '}
+            Nature 581, 452–458 (2020)
+          </ExternalLink>
+        </p>
+        <FileList>
+          {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
+          <ListItem>
+            <GetUrlButtons
+              label="Annotation-level pext for all possible SNVs Hail table"
+              path="/release/4.1/pext/gnomad.pext.gtex_v10.annotation_level.ht"
+              includeAzure={false}
+            />
+          </ListItem>
+          {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
+          <ListItem>
+            <DownloadLinks
+              label="Annotation-level pext for all possible SNVs TSV"
+              path="/release/4.1/pext/gnomad.pext.gtex_v10.annotation_level.tsv.gz"
+              includeAzure={false}
+            />
+          </ListItem>
+          {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
+          <ListItem>
+            <GetUrlButtons
+              label="Base-level pext Hail table"
+              path="/release/4.1/pext/gnomad.pext.gtex_v10.base_level.ht"
+              includeAzure={false}
+            />
+          </ListItem>
+          {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
+          <ListItem>
+            <DownloadLinks
+              label="Base-level pext TSV"
+              path="/release/4.1/pext/gnomad.pext.gtex_v10.base_level.tsv.gz"
+              includeAzure={false}
             />
           </ListItem>
         </FileList>

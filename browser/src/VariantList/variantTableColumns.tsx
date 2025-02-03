@@ -8,6 +8,7 @@ import { Cell, NumericCell, renderAlleleCountCell, renderAlleleFrequencyCell } f
 import { getCategoryFromConsequence, getLabelForConsequenceTerm } from '../vepConsequences'
 import SampleSourceIcon from './SampleSourceIcon'
 import {
+  makeClinvarCompareFunction,
   makeCompareFunction,
   makeNumericCompareFunction,
   makeStringCompareFunction,
@@ -122,11 +123,11 @@ const variantTableColumns: VariantTableColumn[] = [
 
   {
     key: 'clinical_significance',
-    heading: 'Clinical Significance',
-    description: 'ClinVar clinical significance',
+    heading: 'Germline classification',
+    description: 'ClinVar germline classification, formerly called clinical significance',
     grow: 1,
     minWidth: 150,
-    compareFunction: makeStringCompareFunction('clinical_significance'),
+    compareFunction: makeClinvarCompareFunction('clinical_significance'),
     getSearchTerms: (variant: any) => variant.clinical_significance,
     render: (variant: any, _: any, { highlightWords }: any) => (
       <Cell>

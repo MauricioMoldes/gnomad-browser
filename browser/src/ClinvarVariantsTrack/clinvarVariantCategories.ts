@@ -5,27 +5,46 @@ export const CLINICAL_SIGNIFICANCE_CATEGORIES = ['pathogenic', 'uncertain', 'ben
 const CLINICAL_SIGNIFICANCE_GROUPS = {
   pathogenic: new Set([
     'Pathogenic',
-    'Likely pathogenic',
     'Pathogenic/Likely pathogenic',
+    'Likely pathogenic',
     'association',
     'risk factor',
   ]),
   uncertain: new Set([
     'Uncertain significance',
     'Conflicting interpretations of pathogenicity',
+    'Conflicting classifications of pathogenicity',
     'conflicting data from submitters',
   ]),
-  benign: new Set(['Benign', 'Likely benign', 'Benign/Likely benign']),
+  benign: new Set(['Likely benign', 'Benign/Likely benign', 'Benign']),
   other: new Set([
     'other',
     'drug response',
     'Affects',
     'protective',
     'no interpretation for the single variant',
+    'no classification for the single variant',
     'not provided',
     'association not found',
   ]),
 } as const
+
+const buildPriorityMapping = () => {
+  const mapping: { [key: string]: number } = {}
+
+  return CLINICAL_SIGNIFICANCE_CATEGORIES.reduce((acc, category, categoryIndex) => {
+    const group = CLINICAL_SIGNIFICANCE_GROUPS[category as ClinicalSignificance]
+    const groupArray = Array.from(group)
+
+    groupArray.forEach((significance, index) => {
+      acc[significance] = categoryIndex * groupArray.length + index + 1
+    })
+
+    return acc
+  }, mapping)
+}
+
+export const CLINICAL_SIGNIFICANCE_SORT_PRIORITY = buildPriorityMapping()
 
 export type ClinicalSignificance = keyof typeof CLINICAL_SIGNIFICANCE_GROUPS
 

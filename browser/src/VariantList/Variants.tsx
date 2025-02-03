@@ -104,7 +104,7 @@ const Variants = ({
     if ((columnsForContext as any).clinical_significance) {
       ;(
         columnsForContext as any
-      ).clinical_significance.description = `ClinVar clinical significance, based on ClinVar's ${formatClinvarDate(
+      ).clinical_significance.description = `ClinVar germline classification, formerly called clinical significance. Based on ClinVar's ${formatClinvarDate(
         clinvarReleaseDate
       )} release`
     }
@@ -164,6 +164,7 @@ const Variants = ({
     return mergeExomeAndGenomeData({
       datasetId,
       variants: filterVariants(variants, filter, renderedTableColumns),
+      preferJointData: filter.includeExomes && filter.includeGenomes,
     })
   }, [datasetId, variants, filter, renderedTableColumns])
 

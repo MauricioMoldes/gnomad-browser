@@ -1243,13 +1243,43 @@ Below is a list of all features not included in the v4 MVP and where to find the
 
 | Non MVP feature                                | Past versions with this data                          |
 | ---------------------------------------------- | ----------------------------------------------------- |
-| Pext score                                     | v2 gene page                                          |
 | Genetic ancestry subgroups (prevously subpops) | v2 variant page                                       |
 | Multi Nucleotide (MNV) calls                   | v2 variant table and variant page                     |
 | Variant co-occurrence                          | v2 gene page                                          |
 | Manual LoF curation                            | v2 variant table and variant page                     |
 | Regional Missense Constraint                   | Now available on v2 gene page                         |
 | Linkage disequilibrium scores                  | [v2](/downloads/#v2-linkage-disequilibrium) downloads |
+",
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  <h4>
+                    do-you-have-videos-on-how-to-use-gnomad.md
+                  </h4>
+                </summary>
+                <div
+                  className="c17"
+                >
+                  <div
+                    className="c18"
+                    dangerouslySetInnerHTML={
+                      {
+                        "__html": "---
+question: 'Do you have videos on how to use gnomAD?'
+---
+
+Yes, we have a few different videos that cover how gnomAD is created as well as guidance on how to use it.
+
+- [Using gnomAD - tips and tricks](https://www.broadinstitute.org/videos/mpg-primer-using-gnomad-tips-and-tricks)
+- [gnomAD: Using large genomic data sets to interpret human genetic variation](https://www.broadinstitute.org/videos/gnomad-using-large-genomic-data-sets-interpret-human-genetic-variation)
+- [gnomAD v4: Behind the scenes (2023)](https://www.youtube.com/watch?v=my98du_c_7U&list=PLEEE2A91B09B77B4A&index=28)
 ",
                       }
                     }
@@ -10030,9 +10060,9 @@ Unfortunately, for many reasons (including consent and data usage restrictions) 
 question: 'How do I query a batch of variants? Do you have an API?'
 ---
 
-We currently do not have a way to submit batch queries on the browser, but we are actively working on developing a public API for gnomAD. We currently maintain a [GraphQL](https://graphql.org) API for internal use and groups can contact us if they want permission to use this API until a more robust public solution is launched.
+The [GraphQL](https://graphql.org) API used by the browser is open to the public. Please see our [data page](/data) for more details on how to use our API.
 
-You can also obtain information on all variants from the VCFs and Hail Tables available on our [downloads page](/downloads).
+You can also obtain information on all variants from the VCFs and Hail Tables available on our [data page](/data).
 ",
                       }
                     }
