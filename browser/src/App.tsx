@@ -121,7 +121,7 @@ const App = () => {
           <Suspense fallback={null}>
             <TopBarWrapper>
               <NavBar />
-              {BANNER_CONTENT && <Banner>{BANNER_CONTENT}</Banner>}
+              {/**{BANNER_CONTENT && <Banner>{BANNER_CONTENT}</Banner>}*/}
             </TopBarWrapper>
             <Notifications />
 

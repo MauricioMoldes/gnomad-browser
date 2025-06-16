@@ -37,7 +37,7 @@ export default () => (
     <DocumentTitle />
     <HeadingContainer>
       <GnomadLogo width="60%" />
-      <Heading>Genome Aggregation Database</Heading>
+      <Heading> Dengen Genome Aggregation Database, powered by <a href="https://gnomad.broadinstitute.org/" target="_blank">gnomAD</a>  </Heading>
     </HeadingContainer>
 
     <Searchbox width="100%" />
@@ -61,48 +61,7 @@ export default () => (
         Or
       </span>
     </div>
-
-    {/* @ts-expect-error TS(2769) FIXME: No overload matches this call. */}
-    <List style={{ marginBottom: '2em' }}>
-      {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
-      <ListItem>
-        <Link to="/downloads">Download gnomAD data</Link>
-      </ListItem>
-      {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
-      <ListItem>
-        <Link to="/publications">Read gnomAD publications</Link>
-      </ListItem>
-      {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
-      <ListItem>
-        <Link to="/variant-cooccurrence">Find co-occurrence of two variants</Link>
-      </ListItem>
-      {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
-      <ListItem>
-        <Link
-          preserveSelectedDataset={false}
-          to={{
-            pathname: '/short-tandem-repeats',
-            search: queryString.stringify({ dataset: 'gnomad_r4' }),
-          }}
-        >
-          Browse tandem repeats in gnomAD
-        </Link>
-      </ListItem>
-      {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
-      <ListItem>
-        <Link to="/help/what-features-are-not-yet-in-v4-and-where-can-i-find-them">
-          Locate features not yet in gnomAD v4
-        </Link>
-      </ListItem>
-    </List>
-
-    <p>
-      Please note that the gnomAD v3 genomes are now part of gnomAD v4. For more information, see{' '}
-      <Link to="/help/should-i-switch-to-the-latest-version-of-gnomad">
-        &quot;Should I switch to the latest version of gnomAD?&quot;
-      </Link>
-    </p>
-
+   
     <h2 style={{ fontSize: '1em' }}>Examples</h2>
     {/* @ts-expect-error TS(2746) FIXME: This JSX tag's 'children' prop expects a single ch... Remove this comment to see the full error message */}
     <List>
@@ -228,80 +187,48 @@ export default () => (
       </ListItem>
     </List>
 
-    <h2>New to gnomAD?</h2>
+   
+    <h2>New to DenGen ?</h2>
     <p>
-      Check out these resources to learn about gnomAD and how to use it for variant interpretation.
+      Check out these resources to learn about DenGen
     </p>
-    {/* @ts-expect-error TS(2746) FIXME: This JSX tag's 'children' prop expects a single ch... Remove this comment to see the full error message */}
+
     <List>
       {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
       <ListItem>
         {/* @ts-expect-error TS(2769) FIXME: No overload matches this call. */}
-        <ExternalLink href="https://onlinelibrary.wiley.com/doi/10.1002/humu.24309">
-          <em>
-            Gudmundsson et al. Variant interpretation using population databases: Lessons from
-            gnomAD.
-          </em>{' '}
-          Hum Mutat. 2022 Aug;43(8):1012-1030.
+        <ExternalLink href="http://10.62.55.108:3000">         
+            DenGen Website    
+        </ExternalLink>
+        </ListItem>
+      <ListItem>
+        {/* @ts-expect-error TS(2769) FIXME: No overload matches this call. */}
+        <ExternalLink href="http://10.62.55.108:3000/publications">         
+            DenGen Publications    
         </ExternalLink>
       </ListItem>
       {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
       <ListItem>
-        <ExternalLink href="https://www.broadinstitute.org/videos/mpg-primer-using-gnomad-tips-and-tricks">
-          Using gnomAD - tips and tricks (video)
+        {/* @ts-expect-error TS(2786) FIXME: 'ExternalLink' cannot be used as a JSX component. */}
+        <ExternalLink href="http://10.62.55.108:3000/about">
+          About DenGen 
         </ExternalLink>
       </ListItem>
       {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
       <ListItem>
-        <ExternalLink href="https://www.broadinstitute.org/videos/gnomad-using-large-genomic-data-sets-interpret-human-genetic-variation">
-          gnomAD: Using large genomic data sets to interpret human genetic variation (video)
-        </ExternalLink>
-      </ListItem>
-      {/* @ts-expect-error TS(2745) FIXME: This JSX tag's 'children' prop expects type 'never... Remove this comment to see the full error message */}
-      <ListItem>
-        <ExternalLink href="https://rarediseasegenomics.org/blog/six-lessons-for-variant-interpretation">
-          Six lessons for variant interpretation
+        {/* @ts-expect-error TS(2786) FIXME: 'ExternalLink' cannot be used as a JSX component. */}
+        <ExternalLink href="http://10.62.55.108:3000/cohort-statistics">
+         DenGen Cohort in numbers 
         </ExternalLink>
       </ListItem>
     </List>
 
-    <h2>About gnomAD</h2>
 
+    <h2>DenGen Browser is powered by gnomAD !</h2>
     <p>
-      The{' '}
-      <Link preserveSelectedDataset={false} to="/about">
-        Genome Aggregation Database
-      </Link>{' '}
-      (gnomAD™) is a resource developed by an international coalition of investigators, with the
-      goal of aggregating and harmonizing both exome and genome sequencing data from a wide variety
-      of large-scale sequencing projects, and making summary data available for the wider scientific
-      community.
-    </p>
-    <p>
-      The v4 data set (GRCh38) provided on this website spans 730,947 exome sequences and 76,215
-      whole-genome sequences from unrelated individuals, of{' '}
-      <Link preserveSelectedDataset={false} to="/stats#diversity">
-        diverse ancestries
-      </Link>
-      , sequenced as part of various disease-specific and population genetic studies. The gnomAD
-      Principal Investigators and team can be found <Link to="/team">here</Link>, and the groups
-      that have contributed data to the current release are listed{' '}
-      <Link preserveSelectedDataset={false} to="/about">
-        here
-      </Link>
-      .
-    </p>
-    <p>
-      All data here are released for the benefit of the wider biomedical community, without
-      restriction on use - see the{' '}
-      <Link preserveSelectedDataset={false} to="/policies">
-        terms of use
-      </Link>
-      . Sign up for our{' '}
-      <ExternalLink href="https://groups.google.com/forum/#!forum/exac_data_announcements">
-        mailing list
-      </ExternalLink>{' '}
-      for future release announcements.
-    </p>
+    The DenGen Variant Browser leverages the existing infrastructure and search capabilities of the <a href="https://gnomad.broadinstitute.org/">gnomAD project</a>, providing a familiar and robust platform for exploring genetic variants. While the browser framework and core functionalities are based on gnomAD, the dataset has been entirely replaced with DenGen data, offering insights specific to the Danish population. We acknowledge the gnomAD team for their open-source contributions, which enable accessible and scalable genomic data exploration.
+    </p>   
+
+   
   </HomePage>
 )

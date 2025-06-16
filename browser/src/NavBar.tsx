@@ -92,74 +92,14 @@ const NavBar = () => {
     <Wrapper>
       <LogoWrapper>
         <Link to="/" onClick={closeMenu}>
-          <Logo>gnomAD browser</Logo>
+          <Logo>DenGen browser</Logo>
         </Link>
         <ToggleMenuButton onClick={toggleMenu}>☰</ToggleMenuButton>
       </LogoWrapper>
       <Searchbox id="navbar-search" placeholder="Search" width="360px" />
       {/* @ts-expect-error TS(2769) FIXME: No overload matches this call. */}
       <Menu isExpanded={isMenuExpanded}>
-        <li>
-          <Link to="/about" onClick={closeMenu}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/team" onClick={closeMenu}>
-            Team
-          </Link>
-        </li>
-        <li>
-          <Link to="/federated" onClick={closeMenu}>
-            Federated
-          </Link>
-        </li>
-        <li>
-          <Link to="/stats" onClick={closeMenu}>
-            Stats
-          </Link>
-        </li>
-        <li>
-          <Link to="/policies" onClick={closeMenu}>
-            Policies
-          </Link>
-        </li>
-        <li>
-          <Link to="/publications" onClick={closeMenu}>
-            Publications
-          </Link>
-        </li>
-        {/* two <a> tags instead of <Link>s because the blog is a separate application */}
-        <li>
-          <a href="https://gnomad.broadinstitute.org/news/">Blog</a>
-        </li>
-        <li>
-          <a href="https://gnomad.broadinstitute.org/news/changelog/">Changelog</a>
-        </li>
-        <li>
-          <Link to="/data" onClick={closeMenu}>
-            Data
-          </Link>
-        </li>
-        <li>
-          <a
-            href="https://discuss.gnomad.broadinstitute.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Forum
-          </a>
-        </li>
-        <li>
-          <Link to="/contact" onClick={closeMenu}>
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link to="/help" onClick={closeMenu}>
-            Help/FAQ
-          </Link>
-        </li>
+        
       </Menu>
     </Wrapper>
   )
